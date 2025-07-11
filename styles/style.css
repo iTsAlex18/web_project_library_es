@@ -49,16 +49,12 @@
   align-items: flex-start;
 }
 
-.header__text-block {
+.header__title {
   margin-top: 128px;
   max-width: 635px;
-}
-
-.header__title {
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
 }
 
 .header__description {
