@@ -153,10 +153,12 @@
 .card__text {
   margin: 20px 0 0;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .card__footer {
-  margin: 20px 0 0;
+  margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
