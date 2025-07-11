@@ -24,8 +24,8 @@
 }
 
 .nav__logo {
-  width: 80px;
-  height: 58px;
+  width: 120px;
+  height: 60px;
 }
 
 .nav__links {
@@ -58,7 +58,9 @@
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 0;
+  max-width: 760px;
 }
 
 .header__description {
@@ -162,6 +164,9 @@
 
 .card__footer {
   margin-top: auto;
+  margin-bottom: 40px;
+  margin-left: 32px;
+  margin-right: 40px;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
