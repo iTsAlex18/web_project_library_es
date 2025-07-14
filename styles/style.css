@@ -362,11 +362,13 @@
 .footer__column_content_hours {
   flex: 1;
   min-width: 220px;
+  margin-left: 80px;
 }
 
 .footer__column_content_social {
   flex: 1;
   min-width: 220px;
+  margin-left: 80px;
 }
 
 .footer__logo {
