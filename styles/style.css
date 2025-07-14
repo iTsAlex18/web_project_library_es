@@ -343,15 +343,15 @@
 .footer {
   background-color: #1f1f1f;
   color: #ffffff;
-  padding: 60px 80px 40px;
+  padding: 60px 80px 60px;
   box-sizing: border-box;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
-  gap: 80px;
   flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-between;
 }
 
 .footer__column {
@@ -360,13 +360,13 @@
 }
 
 .footer__column_content_hours {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  min-width: 220px;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
+  flex: 1;
+  min-width: 220px;
 }
 
 .footer__logo {
@@ -408,7 +408,7 @@
 }
 
 .footer__copyright {
-  margin-top: 60px;
+  margin-top: 80px;
   font-size: 14px;
   color: #ffffff;
   text-align: center;
