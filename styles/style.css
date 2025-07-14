@@ -355,7 +355,7 @@
 }
 
 .footer__column {
-  flex: 1;
+  flex: 3;
   min-width: 220px;
 }
 
