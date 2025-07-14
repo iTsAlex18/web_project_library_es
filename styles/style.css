@@ -344,6 +344,7 @@
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px 40px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -351,6 +352,11 @@
   justify-content: space-between;
   gap: 80px;
   flex-wrap: wrap;
+}
+
+.footer__column {
+  flex: 1;
+  min-width: 220px;
 }
 
 .footer__column_content_hours {
@@ -384,9 +390,16 @@
   margin-bottom: 10px;
 }
 
+.footer__list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer__column-link {
-  color: white;
+  display: flex;
+  align-items: center;
   text-decoration: none;
+  color: white;
+  gap: 10px;
 }
 
 .footer__social-icon {
