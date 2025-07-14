@@ -360,9 +360,9 @@
 }
 
 .footer__column_content_hours {
-  flex: 1;
-  min-width: 220px;
-  margin-left: 80px;
+  flex: auto;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .footer__column_content_social {
@@ -410,8 +410,7 @@
 }
 
 .footer__copyright {
-  margin-top: 80px;
+  margin-top: 100px;
   font-size: 14px;
   color: #ffffff;
-  text-align: center;
 }
