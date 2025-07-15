@@ -366,6 +366,7 @@
   flex-direction: column;
   gap: 10px;
   text-align: left;
+  margin-left: 80px;
 }
 
 .footer__column_content_social {
