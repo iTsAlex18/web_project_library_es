@@ -359,8 +359,11 @@
 }
 
 .footer__column_content_hours {
-  flex: auto;
+  flex: 1;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__column_content_social {
