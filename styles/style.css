@@ -371,9 +371,7 @@
 .footer__column_content_social {
   flex: 1;
   min-width: 220px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  margin-left: 80px;
 }
 
 .footer__logo {
