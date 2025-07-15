@@ -350,7 +350,6 @@
 .footer__columns {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px; /* 80px entre columnas */
 }
 
 .footer__column {
@@ -360,20 +359,19 @@
 
 .footer__column_content_hours {
   flex: 1;
-  min-width: 220px;
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  gap: 10px; /* espacio entre título y lista */
-  /* ⛔ No uses margin-left aquí o da error de validación */
+  gap: 10px;
+  margin-left: 80px;
 }
 
 .footer__column_content_social {
   flex: 1;
-  min-width: 220px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-left: 80px;
 }
 
 .footer__logo {
