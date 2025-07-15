@@ -343,15 +343,14 @@
 .footer {
   background-color: #1f1f1f;
   color: #ffffff;
-  padding: 60px 80px 60px;
+  padding: 60px 80px;
   box-sizing: border-box;
 }
 
 .footer__columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 80px;
+  gap: 80px; /* 80px entre columnas */
 }
 
 .footer__column {
@@ -362,14 +361,19 @@
 .footer__column_content_hours {
   flex: 1;
   min-width: 220px;
-  margin-left: 100px;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* espacio entre título y lista */
+  /* ⛔ No uses margin-left aquí o da error de validación */
 }
 
 .footer__column_content_social {
   flex: 1;
   min-width: 220px;
-  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer__logo {
@@ -400,9 +404,9 @@
 .footer__column-link {
   display: flex;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
   color: white;
-  gap: 10px;
 }
 
 .footer__social-icon {
